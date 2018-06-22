@@ -22,11 +22,8 @@
 
 🔧 Fixes:
 
-- Pull Request Title goes here
-
-  Description goes here (optional)
-
-  ([PR #N](https://github.com/alphagov/govuk-frontend/pull/N))
+- Fixes radio and checkbox labels extending full width of page
+  ([PR #821](https://github.com/alphagov/govuk-frontend/pull/821))
 
 🏠 Internal:
 
