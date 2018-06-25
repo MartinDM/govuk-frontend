@@ -9,7 +9,7 @@ examples:
         text: Don't include personal or financial information, eg your
               National Insurance number or credit card details.
 
-  - name: with error message
+  - name: with-error-message
     data:
       name: no-ni-reason
       id: no-ni-reason
@@ -18,7 +18,7 @@ examples:
       errorMessage:
         text: You must provide an explanation
 
-  - name: with default value
+  - name: with-default-value
     data:
       id: full-address
       name: address
@@ -29,7 +29,7 @@ examples:
       label:
         text: Full address
 
-  - name: with custom rows
+  - name: with-custom-rows
     data:
       id: full-address
       name: address
@@ -37,7 +37,7 @@ examples:
         text: Full address
       rows: 8
 
-  - name: with label as page heading
+  - name: with-label-as-page-heading
     data:
       id: textarea-with-page-heading
       name: address
