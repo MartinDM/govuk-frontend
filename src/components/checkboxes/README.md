@@ -58,7 +58,7 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'checkboxes/macro.njk' import govukCheckboxes %}
+    {% from "checkboxes/macro.njk" import govukCheckboxes %}
 
     {{ govukCheckboxes({
       "idPrefix": "nationality",
@@ -87,9 +87,9 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
       ]
     }) }}
 
-### Checkboxes--with-id-plus-name
+### Checkboxes with id and name
 
-[Preview the checkboxes--with-id-plus-name example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/with-id-plus-name/preview)
+[Preview the checkboxes with id and name example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/with-id-and-name/preview)
 
 #### Markup
 
@@ -128,7 +128,7 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'checkboxes/macro.njk' import govukCheckboxes %}
+    {% from "checkboxes/macro.njk" import govukCheckboxes %}
 
     {{ govukCheckboxes({
       "fieldset": {
@@ -155,9 +155,9 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
       ]
     }) }}
 
-### Checkboxes--with-disabled
+### Checkboxes with disabled item
 
-[Preview the checkboxes--with-disabled example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/with-disabled/preview)
+[Preview the checkboxes with disabled item example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/with-disabled-item/preview)
 
 #### Markup
 
@@ -192,7 +192,7 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'checkboxes/macro.njk' import govukCheckboxes %}
+    {% from "checkboxes/macro.njk" import govukCheckboxes %}
 
     {{ govukCheckboxes({
       "name": "colours",
@@ -213,9 +213,9 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
       ]
     }) }}
 
-### Checkboxes--with-html
+### Checkboxes with html in legend
 
-[Preview the checkboxes--with-html example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/with-html/preview)
+[Preview the checkboxes with html in legend example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/with-html-in-legend/preview)
 
 #### Markup
 
@@ -261,7 +261,7 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'checkboxes/macro.njk' import govukCheckboxes %}
+    {% from "checkboxes/macro.njk" import govukCheckboxes %}
 
     {{ govukCheckboxes({
       "name": "waste",
@@ -289,9 +289,9 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
       ]
     }) }}
 
-### Checkboxes--without-fieldset
+### Checkboxes without fieldset
 
-[Preview the checkboxes--without-fieldset example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/without-fieldset/preview)
+[Preview the checkboxes without fieldset example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/without-fieldset/preview)
 
 #### Markup
 
@@ -326,7 +326,7 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'checkboxes/macro.njk' import govukCheckboxes %}
+    {% from "checkboxes/macro.njk" import govukCheckboxes %}
 
     {{ govukCheckboxes({
       "name": "colours",
@@ -346,9 +346,9 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
       ]
     }) }}
 
-### Checkboxes--with-extreme-fieldset
+### Checkboxes with all fieldset attributes
 
-[Preview the checkboxes--with-extreme-fieldset example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/with-extreme-fieldset/preview)
+[Preview the checkboxes with all fieldset attributes example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/with-all-fieldset-attributes/preview)
 
 #### Markup
 
@@ -398,7 +398,7 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'checkboxes/macro.njk' import govukCheckboxes %}
+    {% from "checkboxes/macro.njk" import govukCheckboxes %}
 
     {{ govukCheckboxes({
       "idPrefix": "example",
@@ -435,9 +435,9 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
       ]
     }) }}
 
-### Checkboxes--with-error
+### Checkboxes with error message
 
-[Preview the checkboxes--with-error example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/with-error/preview)
+[Preview the checkboxes with error message example](http://govuk-frontend-review.herokuapp.com/components/checkboxes/with-error-message/preview)
 
 #### Markup
 
@@ -483,7 +483,7 @@ Find out when to use the checkboxes component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'checkboxes/macro.njk' import govukCheckboxes %}
+    {% from "checkboxes/macro.njk" import govukCheckboxes %}
 
     {{ govukCheckboxes({
       "name": "waste",

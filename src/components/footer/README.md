@@ -57,7 +57,7 @@ Find out when to use the footer component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'footer/macro.njk' import govukFooter %}
+    {% from "footer/macro.njk" import govukFooter %}
 
     {{ govukFooter({}) }}
 

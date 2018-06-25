@@ -66,7 +66,7 @@ Find out when to use the date input component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'date-input/macro.njk' import govukDateInput %}
+    {% from "date-input/macro.njk" import govukDateInput %}
 
     {{ govukDateInput({
       "id": "dob",
@@ -92,9 +92,9 @@ Find out when to use the date input component in your service in the [GOV.UK Des
       ]
     }) }}
 
-### Date-input--with-errors
+### Date input with errors
 
-[Preview the date-input--with-errors example](http://govuk-frontend-review.herokuapp.com/components/date-input/with-errors/preview)
+[Preview the date input with errors example](http://govuk-frontend-review.herokuapp.com/components/date-input/with-errors/preview)
 
 #### Markup
 
@@ -152,7 +152,7 @@ Find out when to use the date input component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'date-input/macro.njk' import govukDateInput %}
+    {% from "date-input/macro.njk" import govukDateInput %}
 
     {{ govukDateInput({
       "id": "dob-errors",
@@ -183,9 +183,9 @@ Find out when to use the date input component in your service in the [GOV.UK Des
       ]
     }) }}
 
-### Date-input--with-day-error
+### Date input with error on day input
 
-[Preview the date-input--with-day-error example](http://govuk-frontend-review.herokuapp.com/components/date-input/with-day-error/preview)
+[Preview the date input with error on day input example](http://govuk-frontend-review.herokuapp.com/components/date-input/with-error-on-day-input/preview)
 
 #### Markup
 
@@ -243,7 +243,7 @@ Find out when to use the date input component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'date-input/macro.njk' import govukDateInput %}
+    {% from "date-input/macro.njk" import govukDateInput %}
 
     {{ govukDateInput({
       "id": "dob-day-error",
@@ -273,9 +273,9 @@ Find out when to use the date input component in your service in the [GOV.UK Des
       ]
     }) }}
 
-### Date-input--with-month-error
+### Date input with error on month input
 
-[Preview the date-input--with-month-error example](http://govuk-frontend-review.herokuapp.com/components/date-input/with-month-error/preview)
+[Preview the date input with error on month input example](http://govuk-frontend-review.herokuapp.com/components/date-input/with-error-on-month-input/preview)
 
 #### Markup
 
@@ -333,7 +333,7 @@ Find out when to use the date input component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'date-input/macro.njk' import govukDateInput %}
+    {% from "date-input/macro.njk" import govukDateInput %}
 
     {{ govukDateInput({
       "id": "dob-month-error",
@@ -363,9 +363,9 @@ Find out when to use the date input component in your service in the [GOV.UK Des
       ]
     }) }}
 
-### Date-input--with-year-error
+### Date input with error on year input
 
-[Preview the date-input--with-year-error example](http://govuk-frontend-review.herokuapp.com/components/date-input/with-year-error/preview)
+[Preview the date input with error on year input example](http://govuk-frontend-review.herokuapp.com/components/date-input/with-error-on-year-input/preview)
 
 #### Markup
 
@@ -423,7 +423,7 @@ Find out when to use the date input component in your service in the [GOV.UK Des
 
 #### Macro
 
-    {% from 'date-input/macro.njk' import govukDateInput %}
+    {% from "date-input/macro.njk" import govukDateInput %}
 
     {{ govukDateInput({
       "id": "dob-year-error",

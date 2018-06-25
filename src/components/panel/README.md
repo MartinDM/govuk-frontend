@@ -29,7 +29,7 @@ Find out when to use the panel component in your service in the [GOV.UK Design S
 
 #### Macro
 
-    {% from 'panel/macro.njk' import govukPanel %}
+    {% from "panel/macro.njk" import govukPanel %}
 
     {{ govukPanel({
       "titleText": "Application complete",

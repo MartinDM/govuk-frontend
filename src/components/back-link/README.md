@@ -20,15 +20,15 @@ Find out when to use the back link component in your service in the [GOV.UK Desi
 
 #### Macro
 
-    {% from 'back-link/macro.njk' import govukBackLink %}
+    {% from "back-link/macro.njk" import govukBackLink %}
 
     {{ govukBackLink({
       "href": "#"
     }) }}
 
-### Back-link--with custom text
+### Back link with custom text
 
-[Preview the back-link--with custom text example](http://govuk-frontend-review.herokuapp.com/components/back-link/with custom text/preview)
+[Preview the back link with custom text example](http://govuk-frontend-review.herokuapp.com/components/back-link/with-custom-text/preview)
 
 #### Markup
 
@@ -36,7 +36,7 @@ Find out when to use the back link component in your service in the [GOV.UK Desi
 
 #### Macro
 
-    {% from 'back-link/macro.njk' import govukBackLink %}
+    {% from "back-link/macro.njk" import govukBackLink %}
 
     {{ govukBackLink({
       "href": "#",

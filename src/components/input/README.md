@@ -26,7 +26,7 @@ Find out when to use the input component in your service in the [GOV.UK Design S
 
 #### Macro
 
-    {% from 'input/macro.njk' import govukInput %}
+    {% from "input/macro.njk" import govukInput %}
 
     {{ govukInput({
       "label": {
@@ -36,9 +36,9 @@ Find out when to use the input component in your service in the [GOV.UK Design S
       "name": "test-name"
     }) }}
 
-### Input--with-hint-text
+### Input with hint text
 
-[Preview the input--with-hint-text example](http://govuk-frontend-review.herokuapp.com/components/input/with-hint-text/preview)
+[Preview the input with hint text example](http://govuk-frontend-review.herokuapp.com/components/input/with-hint-text/preview)
 
 #### Markup
 
@@ -56,7 +56,7 @@ Find out when to use the input component in your service in the [GOV.UK Design S
 
 #### Macro
 
-    {% from 'input/macro.njk' import govukInput %}
+    {% from "input/macro.njk" import govukInput %}
 
     {{ govukInput({
       "label": {
@@ -69,9 +69,9 @@ Find out when to use the input component in your service in the [GOV.UK Design S
       "name": "test-name-2"
     }) }}
 
-### Input--with-error-message
+### Input with error message
 
-[Preview the input--with-error-message example](http://govuk-frontend-review.herokuapp.com/components/input/with-error-message/preview)
+[Preview the input with error message example](http://govuk-frontend-review.herokuapp.com/components/input/with-error-message/preview)
 
 #### Markup
 
@@ -93,7 +93,7 @@ Find out when to use the input component in your service in the [GOV.UK Design S
 
 #### Macro
 
-    {% from 'input/macro.njk' import govukInput %}
+    {% from "input/macro.njk" import govukInput %}
 
     {{ govukInput({
       "label": {
@@ -109,9 +109,9 @@ Find out when to use the input component in your service in the [GOV.UK Design S
       }
     }) }}
 
-### Input--width-10
+### Input width 10
 
-[Preview the input--width-10 example](http://govuk-frontend-review.herokuapp.com/components/input/width-10/preview)
+[Preview the input width 10 example](http://govuk-frontend-review.herokuapp.com/components/input/width-10/preview)
 
 #### Markup
 
@@ -129,7 +129,7 @@ Find out when to use the input component in your service in the [GOV.UK Design S
 
 #### Macro
 
-    {% from 'input/macro.njk' import govukInput %}
+    {% from "input/macro.njk" import govukInput %}
 
     {{ govukInput({
       "label": {
@@ -143,9 +143,9 @@ Find out when to use the input component in your service in the [GOV.UK Design S
       "classes": "govuk-input--width-10"
     }) }}
 
-### Input--width-20
+### Input width 20
 
-[Preview the input--width-20 example](http://govuk-frontend-review.herokuapp.com/components/input/width-20/preview)
+[Preview the input width 20 example](http://govuk-frontend-review.herokuapp.com/components/input/width-20/preview)
 
 #### Markup
 
@@ -163,7 +163,7 @@ Find out when to use the input component in your service in the [GOV.UK Design S
 
 #### Macro
 
-    {% from 'input/macro.njk' import govukInput %}
+    {% from "input/macro.njk" import govukInput %}
 
     {{ govukInput({
       "label": {
@@ -177,9 +177,9 @@ Find out when to use the input component in your service in the [GOV.UK Design S
       "classes": "govuk-input--width-20"
     }) }}
 
-### Input--width-30
+### Input width 30
 
-[Preview the input--width-30 example](http://govuk-frontend-review.herokuapp.com/components/input/width-30/preview)
+[Preview the input width 30 example](http://govuk-frontend-review.herokuapp.com/components/input/width-30/preview)
 
 #### Markup
 
@@ -197,7 +197,7 @@ Find out when to use the input component in your service in the [GOV.UK Design S
 
 #### Macro
 
-    {% from 'input/macro.njk' import govukInput %}
+    {% from "input/macro.njk" import govukInput %}
 
     {{ govukInput({
       "label": {
@@ -211,9 +211,9 @@ Find out when to use the input component in your service in the [GOV.UK Design S
       "classes": "govuk-input--width-30"
     }) }}
 
-### Input--with-label-as-page-heading
+### Input with label as page heading
 
-[Preview the input--with-label-as-page-heading example](http://govuk-frontend-review.herokuapp.com/components/input/with-label-as-page-heading/preview)
+[Preview the input with label as page heading example](http://govuk-frontend-review.herokuapp.com/components/input/with-label-as-page-heading/preview)
 
 #### Markup
 
@@ -230,7 +230,7 @@ Find out when to use the input component in your service in the [GOV.UK Design S
 
 #### Macro
 
-    {% from 'input/macro.njk' import govukInput %}
+    {% from "input/macro.njk" import govukInput %}
 
     {{ govukInput({
       "label": {

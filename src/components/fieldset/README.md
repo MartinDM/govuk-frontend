@@ -26,7 +26,7 @@ Find out when to use the fieldset component in your service in the [GOV.UK Desig
 
 #### Macro
 
-    {% from 'fieldset/macro.njk' import govukFieldset %}
+    {% from "fieldset/macro.njk" import govukFieldset %}
 
     {{ govukFieldset({
       "legend": {
@@ -34,9 +34,9 @@ Find out when to use the fieldset component in your service in the [GOV.UK Desig
       }
     }) }}
 
-### Fieldset--as page heading
+### Fieldset as page heading
 
-[Preview the fieldset--as page heading example](http://govuk-frontend-review.herokuapp.com/components/fieldset/as page heading/preview)
+[Preview the fieldset as page heading example](http://govuk-frontend-review.herokuapp.com/components/fieldset/as-page-heading/preview)
 
 #### Markup
 
@@ -52,7 +52,7 @@ Find out when to use the fieldset component in your service in the [GOV.UK Desig
 
 #### Macro
 
-    {% from 'fieldset/macro.njk' import govukFieldset %}
+    {% from "fieldset/macro.njk" import govukFieldset %}
 
     {{ govukFieldset({
       "legend": {

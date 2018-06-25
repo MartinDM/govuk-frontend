@@ -20,7 +20,7 @@ Find out when to use the skip link component in your service in the [GOV.UK Desi
 
 #### Macro
 
-    {% from 'skip-link/macro.njk' import govukSkipLink %}
+    {% from "skip-link/macro.njk" import govukSkipLink %}
 
     {{ govukSkipLink({
       "text": "Skip to main content",

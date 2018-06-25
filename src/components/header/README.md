@@ -53,13 +53,13 @@ Find out when to use the header component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'header/macro.njk' import govukHeader %}
+    {% from "header/macro.njk" import govukHeader %}
 
     {{ govukHeader({}) }}
 
-### Header--with-service-name
+### Header with service name
 
-[Preview the header--with-service-name example](http://govuk-frontend-review.herokuapp.com/components/header/with-service-name/preview)
+[Preview the header with service name example](http://govuk-frontend-review.herokuapp.com/components/header/with-service-name/preview)
 
 #### Markup
 
@@ -104,16 +104,16 @@ Find out when to use the header component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'header/macro.njk' import govukHeader %}
+    {% from "header/macro.njk" import govukHeader %}
 
     {{ govukHeader({
       "serviceName": "Service Name",
       "serviceUrl": "/components/header"
     }) }}
 
-### Header--with-navigation
+### Header with navigation
 
-[Preview the header--with-navigation example](http://govuk-frontend-review.herokuapp.com/components/header/with-navigation/preview)
+[Preview the header with navigation example](http://govuk-frontend-review.herokuapp.com/components/header/with-navigation/preview)
 
 #### Markup
 
@@ -185,7 +185,7 @@ Find out when to use the header component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'header/macro.njk' import govukHeader %}
+    {% from "header/macro.njk" import govukHeader %}
 
     {{ govukHeader({
       "navigation": [
@@ -209,9 +209,9 @@ Find out when to use the header component in your service in the [GOV.UK Design 
       ]
     }) }}
 
-### Header--with-service-name-and-navigation
+### Header with service name and navigation
 
-[Preview the header--with-service-name-and-navigation example](http://govuk-frontend-review.herokuapp.com/components/header/with-service-name-and-navigation/preview)
+[Preview the header with service name and navigation example](http://govuk-frontend-review.herokuapp.com/components/header/with-service-name-and-navigation/preview)
 
 #### Markup
 
@@ -287,7 +287,7 @@ Find out when to use the header component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'header/macro.njk' import govukHeader %}
+    {% from "header/macro.njk" import govukHeader %}
 
     {{ govukHeader({
       "serviceName": "Service Name",

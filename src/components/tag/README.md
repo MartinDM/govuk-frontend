@@ -22,15 +22,15 @@ Find out when to use the tag component in your service in the [GOV.UK Design Sys
 
 #### Macro
 
-    {% from 'tag/macro.njk' import govukTag %}
+    {% from "tag/macro.njk" import govukTag %}
 
     {{ govukTag({
       "text": "alpha"
     }) }}
 
-### Tag--inactive
+### Tag inactive
 
-[Preview the tag--inactive example](http://govuk-frontend-review.herokuapp.com/components/tag/inactive/preview)
+[Preview the tag inactive example](http://govuk-frontend-review.herokuapp.com/components/tag/inactive/preview)
 
 #### Markup
 
@@ -40,7 +40,7 @@ Find out when to use the tag component in your service in the [GOV.UK Design Sys
 
 #### Macro
 
-    {% from 'tag/macro.njk' import govukTag %}
+    {% from "tag/macro.njk" import govukTag %}
 
     {{ govukTag({
       "text": "alpha",

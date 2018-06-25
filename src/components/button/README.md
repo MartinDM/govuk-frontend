@@ -24,15 +24,15 @@ Buttons are configured to perform an action and they can have a different look. 
 
 #### Macro
 
-    {% from 'button/macro.njk' import govukButton %}
+    {% from "button/macro.njk" import govukButton %}
 
     {{ govukButton({
       "text": "Save and continue"
     }) }}
 
-### Button--disabled
+### Button disabled
 
-[Preview the button--disabled example](http://govuk-frontend-review.herokuapp.com/components/button/disabled/preview)
+[Preview the button disabled example](http://govuk-frontend-review.herokuapp.com/components/button/disabled/preview)
 
 #### Markup
 
@@ -42,16 +42,16 @@ Buttons are configured to perform an action and they can have a different look. 
 
 #### Macro
 
-    {% from 'button/macro.njk' import govukButton %}
+    {% from "button/macro.njk" import govukButton %}
 
     {{ govukButton({
       "text": "Disabled button",
       "disabled": true
     }) }}
 
-### Button--link
+### Button link
 
-[Preview the button--link example](http://govuk-frontend-review.herokuapp.com/components/button/link/preview)
+[Preview the button link example](http://govuk-frontend-review.herokuapp.com/components/button/link/preview)
 
 #### Markup
 
@@ -61,16 +61,16 @@ Buttons are configured to perform an action and they can have a different look. 
 
 #### Macro
 
-    {% from 'button/macro.njk' import govukButton %}
+    {% from "button/macro.njk" import govukButton %}
 
     {{ govukButton({
       "text": "Link button",
       "href": "/"
     }) }}
 
-### Button--disabled-link
+### Button link disabled
 
-[Preview the button--disabled-link example](http://govuk-frontend-review.herokuapp.com/components/button/disabled-link/preview)
+[Preview the button link disabled example](http://govuk-frontend-review.herokuapp.com/components/button/link-disabled/preview)
 
 #### Markup
 
@@ -80,7 +80,7 @@ Buttons are configured to perform an action and they can have a different look. 
 
 #### Macro
 
-    {% from 'button/macro.njk' import govukButton %}
+    {% from "button/macro.njk" import govukButton %}
 
     {{ govukButton({
       "text": "Disabled link button",
@@ -88,9 +88,9 @@ Buttons are configured to perform an action and they can have a different look. 
       "disabled": true
     }) }}
 
-### Button--start-link
+### Button start link
 
-[Preview the button--start-link example](http://govuk-frontend-review.herokuapp.com/components/button/start-link/preview)
+[Preview the button start link example](http://govuk-frontend-review.herokuapp.com/components/button/start-link/preview)
 
 #### Markup
 
@@ -100,7 +100,7 @@ Buttons are configured to perform an action and they can have a different look. 
 
 #### Macro
 
-    {% from 'button/macro.njk' import govukButton %}
+    {% from "button/macro.njk" import govukButton %}
 
     {{ govukButton({
       "text": "Start now link button",
@@ -108,9 +108,9 @@ Buttons are configured to perform an action and they can have a different look. 
       "classes": "govuk-button--start"
     }) }}
 
-### Button--explicit-input-button
+### Button input
 
-[Preview the button--explicit-input-button example](http://govuk-frontend-review.herokuapp.com/components/button/explicit-input-button/preview)
+[Preview the button input example](http://govuk-frontend-review.herokuapp.com/components/button/input/preview)
 
 #### Markup
 
@@ -118,7 +118,7 @@ Buttons are configured to perform an action and they can have a different look. 
 
 #### Macro
 
-    {% from 'button/macro.njk' import govukButton %}
+    {% from "button/macro.njk" import govukButton %}
 
     {{ govukButton({
       "element": "input",
@@ -126,9 +126,9 @@ Buttons are configured to perform an action and they can have a different look. 
       "text": "Start now"
     }) }}
 
-### Button--explicit-input-button-disabled
+### Button input disabled
 
-[Preview the button--explicit-input-button-disabled example](http://govuk-frontend-review.herokuapp.com/components/button/explicit-input-button-disabled/preview)
+[Preview the button input disabled example](http://govuk-frontend-review.herokuapp.com/components/button/input-disabled/preview)
 
 #### Markup
 
@@ -136,7 +136,7 @@ Buttons are configured to perform an action and they can have a different look. 
 
 #### Macro
 
-    {% from 'button/macro.njk' import govukButton %}
+    {% from "button/macro.njk" import govukButton %}
 
     {{ govukButton({
       "element": "input",

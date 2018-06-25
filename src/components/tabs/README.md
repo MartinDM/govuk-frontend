@@ -177,7 +177,7 @@ Find out when to use the tabs component in your service in the [GOV.UK Design Sy
 
 #### Macro
 
-    {% from 'tabs/macro.njk' import govukTabs %}
+    {% from "tabs/macro.njk" import govukTabs %}
 
     {{ govukTabs({
       "items": [

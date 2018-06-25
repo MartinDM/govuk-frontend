@@ -46,7 +46,7 @@ Find out when to use the error summary component in your service in the [GOV.UK 
 
 #### Macro
 
-    {% from 'error-summary/macro.njk' import govukErrorSummary %}
+    {% from "error-summary/macro.njk" import govukErrorSummary %}
 
     {{ govukErrorSummary({
       "titleText": "Message to alert the user to a problem goes here",

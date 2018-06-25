@@ -28,7 +28,7 @@ Find out when to use the phase banner component in your service in the [GOV.UK D
 
 #### Macro
 
-    {% from 'phase-banner/macro.njk' import govukPhaseBanner %}
+    {% from "phase-banner/macro.njk" import govukPhaseBanner %}
 
     {{ govukPhaseBanner({
       "tag": {

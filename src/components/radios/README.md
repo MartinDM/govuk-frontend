@@ -51,7 +51,7 @@ Find out when to use the radios component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'radios/macro.njk' import govukRadios %}
+    {% from "radios/macro.njk" import govukRadios %}
 
     {{ govukRadios({
       "idPrefix": "example",
@@ -77,36 +77,36 @@ Find out when to use the radios component in your service in the [GOV.UK Design 
       ]
     }) }}
 
-### Radios--inline
+### Radios inline
 
-[Preview the radios--inline example](http://govuk-frontend-review.herokuapp.com/components/radios/inline/preview)
+[Preview the radios inline example](http://govuk-frontend-review.herokuapp.com/components/radios/inline/preview)
 
 #### Markup
 
     <div class="govuk-form-group">
 
-      <fieldset class="govuk-fieldset" aria-describedby="example-hint">
+      <fieldset class="govuk-fieldset" aria-describedby="example&#39;-hint">
 
       <legend class="govuk-fieldset__legend">
         Have you changed your name?
       </legend>
 
-      <span id="example-hint" class="govuk-hint">
+      <span id="example&#39;-hint" class="govuk-hint">
         This includes changing your last name or spelling your name differently.
       </span>
 
       <div class="govuk-radios govuk-radios--inline">
 
         <div class="govuk-radios__item">
-          <input class="govuk-radios__input" id="example-1" name="example" type="radio" value="yes">
-          <label class="govuk-label govuk-radios__label" for="example-1">
+          <input class="govuk-radios__input" id="example&#39;-1" name="example" type="radio" value="yes">
+          <label class="govuk-label govuk-radios__label" for="example&#39;-1">
             Yes
           </label>
         </div>
 
         <div class="govuk-radios__item">
-          <input class="govuk-radios__input" id="example-2" name="example" type="radio" value="no" checked>
-          <label class="govuk-label govuk-radios__label" for="example-2">
+          <input class="govuk-radios__input" id="example&#39;-2" name="example" type="radio" value="no" checked>
+          <label class="govuk-label govuk-radios__label" for="example&#39;-2">
             No
           </label>
         </div>
@@ -118,10 +118,10 @@ Find out when to use the radios component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'radios/macro.njk' import govukRadios %}
+    {% from "radios/macro.njk" import govukRadios %}
 
     {{ govukRadios({
-      "idPrefix": "example",
+      "idPrefix": "example'",
       "classes": "govuk-radios--inline",
       "name": "example",
       "fieldset": {
@@ -145,9 +145,9 @@ Find out when to use the radios component in your service in the [GOV.UK Design 
       ]
     }) }}
 
-### Radios--with-disabled
+### Radios with disabled
 
-[Preview the radios--with-disabled example](http://govuk-frontend-review.herokuapp.com/components/radios/with-disabled/preview)
+[Preview the radios with disabled example](http://govuk-frontend-review.herokuapp.com/components/radios/with-disabled/preview)
 
 #### Markup
 
@@ -186,7 +186,7 @@ Find out when to use the radios component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'radios/macro.njk' import govukRadios %}
+    {% from "radios/macro.njk" import govukRadios %}
 
     {{ govukRadios({
       "idPrefix": "example-disabled",
@@ -213,9 +213,9 @@ Find out when to use the radios component in your service in the [GOV.UK Design 
       ]
     }) }}
 
-### Radios--with-html
+### Radios with html
 
-[Preview the radios--with-html example](http://govuk-frontend-review.herokuapp.com/components/radios/with-html/preview)
+[Preview the radios with html example](http://govuk-frontend-review.herokuapp.com/components/radios/with-html/preview)
 
 #### Markup
 
@@ -254,7 +254,7 @@ Find out when to use the radios component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'radios/macro.njk' import govukRadios %}
+    {% from "radios/macro.njk" import govukRadios %}
 
     {{ govukRadios({
       "idPrefix": "housing-act",
@@ -279,9 +279,9 @@ Find out when to use the radios component in your service in the [GOV.UK Design 
       ]
     }) }}
 
-### Radios--without-fieldset
+### Radios without fieldset
 
-[Preview the radios--without-fieldset example](http://govuk-frontend-review.herokuapp.com/components/radios/without-fieldset/preview)
+[Preview the radios without fieldset example](http://govuk-frontend-review.herokuapp.com/components/radios/without-fieldset/preview)
 
 #### Markup
 
@@ -316,7 +316,7 @@ Find out when to use the radios component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'radios/macro.njk' import govukRadios %}
+    {% from "radios/macro.njk" import govukRadios %}
 
     {{ govukRadios({
       "name": "colours",
@@ -336,9 +336,9 @@ Find out when to use the radios component in your service in the [GOV.UK Design 
       ]
     }) }}
 
-### Radios--with-extreme-fieldset
+### Radios with all fieldset attributes
 
-[Preview the radios--with-extreme-fieldset example](http://govuk-frontend-review.herokuapp.com/components/radios/with-extreme-fieldset/preview)
+[Preview the radios with all fieldset attributes example](http://govuk-frontend-review.herokuapp.com/components/radios/with-all-fieldset-attributes/preview)
 
 #### Markup
 
@@ -381,7 +381,7 @@ Find out when to use the radios component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'radios/macro.njk' import govukRadios %}
+    {% from "radios/macro.njk" import govukRadios %}
 
     {{ govukRadios({
       "idPrefix": "example",

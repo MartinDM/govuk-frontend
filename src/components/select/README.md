@@ -34,7 +34,7 @@ Find out when to use the select component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'select/macro.njk' import govukSelect %}
+    {% from "select/macro.njk" import govukSelect %}
 
     {{ govukSelect({
       "id": "select-1",
@@ -60,9 +60,9 @@ Find out when to use the select component in your service in the [GOV.UK Design 
       ]
     }) }}
 
-### Select--with-hint-text-and-error
+### Select with hint text and error message
 
-[Preview the select--with-hint-text-and-error example](http://govuk-frontend-review.herokuapp.com/components/select/with-hint-text-and-error/preview)
+[Preview the select with hint text and error message example](http://govuk-frontend-review.herokuapp.com/components/select/with-hint-text-and-error-message/preview)
 
 #### Markup
 
@@ -92,7 +92,7 @@ Find out when to use the select component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'select/macro.njk' import govukSelect %}
+    {% from "select/macro.njk" import govukSelect %}
 
     {{ govukSelect({
       "id": "select-2",
@@ -122,9 +122,9 @@ Find out when to use the select component in your service in the [GOV.UK Design 
       ]
     }) }}
 
-### Select--with-label-as-page-heading
+### Select with label as page heading
 
-[Preview the select--with-label-as-page-heading example](http://govuk-frontend-review.herokuapp.com/components/select/with-label-as-page-heading/preview)
+[Preview the select with label as page heading example](http://govuk-frontend-review.herokuapp.com/components/select/with-label-as-page-heading/preview)
 
 #### Markup
 
@@ -149,7 +149,7 @@ Find out when to use the select component in your service in the [GOV.UK Design 
 
 #### Macro
 
-    {% from 'select/macro.njk' import govukSelect %}
+    {% from "select/macro.njk" import govukSelect %}
 
     {{ govukSelect({
       "id": "select-3",
